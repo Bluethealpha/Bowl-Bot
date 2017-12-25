@@ -1,1 +1,1 @@
-worker node launcher.py
+worker: python red.py
