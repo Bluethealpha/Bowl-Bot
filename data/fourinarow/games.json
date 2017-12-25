@@ -1,0 +1,89 @@
+{
+    "CHANNELS" : {
+        "394329769799319555" : {
+            "PLAYERS" : {
+                "IDS" : [
+                    "345761816149753856"
+                ],
+                "NAMES" : [
+                    "BluetheARPG"
+                ],
+                "TOKENS" : [
+                    21
+                ]
+            },
+            "VOTES_STP" : {
+                "voteIds" : [],
+                "votes" : 0
+            },
+            "activePlayers" : 1,
+            "board" : [
+                [
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black"
+                ],
+                [
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black"
+                ],
+                [
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black"
+                ],
+                [
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black"
+                ],
+                [
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black"
+                ],
+                [
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black",
+                    "black"
+                ]
+            ],
+            "boardSize" : 0,
+            "botDifficulty" : 1,
+            "deleteMsg" : true,
+            "gameStarted" : 1514116887,
+            "inQue" : "yes",
+            "lastActivity" : 1514116887,
+            "skipIds" : [],
+            "turnIds" : [
+                "345761816149753856"
+            ],
+            "winner" : "unknown"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "EMAIL" : null,
+    "OWNER" : "345761816149753856",
+    "PASSWORD" : null,
+    "PREFIXES" : [
+        "Toki!"
+    ],
+    "TOKEN" : "Mzk0MzA1MjgxNjQ1MDg0Njcy.DSCv0A.9r8BO0fN7j67LvUDQpACl_7j2xU",
+    "default" : {
+        "ADMIN_ROLE" : "Aippaq's Transistor",
+        "MOD_ROLE" : "Bowl's Buds",
+        "PREFIXES" : []
+    }
+}

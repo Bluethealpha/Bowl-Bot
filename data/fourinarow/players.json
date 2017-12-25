@@ -1,0 +1,70 @@
+{
+    "PLAYERS" : {
+        "332908202578411521" : {
+            "MSG" : {
+                "joiningMsg" : "An average player",
+                "playerMsg" : "nomsg",
+                "victoryMsg" : "nomsg"
+            },
+            "STATS" : {
+                "avarageTimeGame" : 1827.9,
+                "averageTimeTurn" : 0.1509433962264151,
+                "draw" : 0,
+                "loss" : 1,
+                "points" : 190,
+                "totalMoves" : 53,
+                "wasted" : 0,
+                "won" : 4
+            },
+            "boardId" : "noGame",
+            "playerId" : "332908202578411521",
+            "playerName" : "Necroam",
+            "tokenAssinged" : 17,
+            "tokenPreferred" : 0
+        },
+        "332910841223577611" : {
+            "MSG" : {
+                "joiningMsg" : "a Newbie",
+                "playerMsg" : "nomsg",
+                "victoryMsg" : "nomsg"
+            },
+            "STATS" : {
+                "avarageTimeGame" : 1089.5,
+                "averageTimeTurn" : 0.21052631578947367,
+                "draw" : 0,
+                "loss" : 1,
+                "points" : 70,
+                "totalMoves" : 19,
+                "wasted" : 0,
+                "won" : 1
+            },
+            "boardId" : "noGame",
+            "playerId" : "332910841223577611",
+            "playerName" : "Kondaii",
+            "tokenAssinged" : 23,
+            "tokenPreferred" : 0
+        },
+        "345761816149753856" : {
+            "MSG" : {
+                "joiningMsg" : "a Newbie",
+                "playerMsg" : "nomsg",
+                "victoryMsg" : "nomsg"
+            },
+            "STATS" : {
+                "avarageTimeGame" : 850.3333333333333,
+                "averageTimeTurn" : 0.45161290322580644,
+                "draw" : 0,
+                "loss" : 3,
+                "points" : 70,
+                "totalMoves" : 31,
+                "wasted" : 0,
+                "won" : 0
+            },
+            "boardId" : "noGame",
+            "playerId" : "345761816149753856",
+            "playerName" : "BluetheARPG",
+            "tokenAssinged" : 2,
+            "tokenPreferred" : 0
+        }
+    }
+}

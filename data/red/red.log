@@ -1,0 +1,591 @@
+[23/12/2017 21:24] ERROR red <module> 616: Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[23/12/2017 21:24] ERROR red <module> 616: Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[23/12/2017 21:32] ERROR red <module> 616: Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[23/12/2017 21:33] ERROR red <module> 616: Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[23/12/2017 22:32] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 425, in poll_event
+    msg = yield from self.recv()
+  File "/usr/local/lib/python3.6/site-packages/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 430, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 455, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 51] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Can not connect to discordapp.com:443 [Network is unreachable]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 451, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 198, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Network is unreachable]]
+[23/12/2017 22:32] ERROR red load_cogs 573: HTTPSConnectionPool(host='api.imgur.com', port=443): Max retries exceeded with url: /3/credits (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x111fae4a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x111fae4a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.imgur.com', port=443): Max retries exceeded with url: /3/credits (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x111fae4a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/image.py", line 168, in setup
+    bot.add_cog(Image(bot))
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/image.py", line 22, in __init__
+    self.imgur = ImgurClient(CLIENT_ID, CLIENT_SECRET)
+  File "/usr/local/lib/python3.6/site-packages/imgurpython/client.py", line 85, in __init__
+    self.credits = self.get_credits()
+  File "/usr/local/lib/python3.6/site-packages/imgurpython/client.py", line 94, in get_credits
+    return self.make_request('GET', 'credits', None, True)
+  File "/usr/local/lib/python3.6/site-packages/imgurpython/client.py", line 131, in make_request
+    response = method_to_call(url, headers=header, params=data, data=data)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.imgur.com', port=443): Max retries exceeded with url: /3/credits (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x111fae4a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+[23/12/2017 22:32] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 589, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 561, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/resolver.py", line 29, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 8] Cannot connect to host discordapp.com:443 ssl:True [nodename nor servname provided, or not known]
+[23/12/2017 22:32] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 589, in _create_direct_connection
+    hosts = yield from self._resolve_host(req.host, req.port)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 561, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/resolver.py", line 29, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 599, in main
+    bot=not bot.settings.self_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 8] Cannot connect to host discordapp.com:443 ssl:True [nodename nor servname provided, or not known]
+[23/12/2017 23:17] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 425, in poll_event
+    msg = yield from self.recv()
+  File "/usr/local/lib/python3.6/site-packages/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 430, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 455, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 51] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Can not connect to discordapp.com:443 [Network is unreachable]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 451, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 198, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Network is unreachable]]
+[24/12/2017 08:11] ERROR red load_cogs 573: Expecting value: line 91 column 1 (char 6499)
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/insult.py", line 32, in setup
+    bot.add_cog(Insult(bot))
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/insult.py", line 13, in __init__
+    self.insults = fileIO("data/insult/insults.json","load")
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/utils/dataIO.py", line 60, in _legacy_fileio
+    return self.load_json(filename)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/utils/dataIO.py", line 46, in _read_json
+    data = json.load(f)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 299, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 91 column 1 (char 6499)
+[24/12/2017 08:27] ERROR red load_cogs 573: [Errno 2] No such file or directory: 'data/pepe/pepe.json'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/pepe.py", line 75, in setup
+    n = Pepe(bot)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/pepe.py", line 18, in __init__
+    self.system = dataIO.load_json(self.pepe)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/utils/dataIO.py", line 32, in load_json
+    return self._read_json(filename)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/utils/dataIO.py", line 45, in _read_json
+    with open(filename, encoding='utf-8', mode="r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/pepe/pepe.json'
+[24/12/2017 08:53] ERROR red on_command_error 369: Exception in command 'welcomeset'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/welcome.py", line 34, in welcomeset
+    self.settings[server.id]["CHANNEL"] = server.default_channel.id
+AttributeError: 'NoneType' object has no attribute 'id'
+[24/12/2017 09:35] ERROR red on_command_error 369: Exception in command 'dog'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/randimals.py", line 39, in _dog
+    io.BytesIO(await image.read()), filename=filename)
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 1234, in send_file
+    filename=filename, content=content, tts=tts)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: REQUEST ENTITY TOO LARGE (status code: 413): Request entity too large
+[24/12/2017 11:23] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 425, in poll_event
+    msg = yield from self.recv()
+  File "/usr/local/lib/python3.6/site-packages/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 430, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 455, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 51] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Can not connect to discordapp.com:443 [Network is unreachable]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 451, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 198, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Network is unreachable]]
+[24/12/2017 12:29] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 425, in poll_event
+    msg = yield from self.recv()
+  File "/usr/local/lib/python3.6/site-packages/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 430, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 777, in create_connection
+    raise exceptions[0]
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 764, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 450, in sock_connect
+    return (yield from fut)
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/selector_events.py", line 455, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 51] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Can not connect to discordapp.com:443 [Network is unreachable]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/usr/local/Cellar/python3/3.6.4/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 451, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
+  File "/usr/local/lib/python3.6/site-packages/discord/gateway.py", line 198, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.6/site-packages/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 51] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Network is unreachable]]
+[24/12/2017 13:10] ERROR red on_command_error 369: Exception in command 'dog'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Applications/Discord Stuff/Red-DiscordBot/cogs/randimals.py", line 39, in _dog
+    io.BytesIO(await image.read()), filename=filename)
+  File "/usr/local/lib/python3.6/site-packages/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "/usr/local/lib/python3.6/site-packages/discord/client.py", line 1234, in send_file
+    filename=filename, content=content, tts=tts)
+  File "/usr/local/lib/python3.6/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: REQUEST ENTITY TOO LARGE (status code: 413): Request entity too large

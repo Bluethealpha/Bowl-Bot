@@ -1,0 +1,12 @@
+{
+    "394205917605789707" : {
+        "BOTS_MSG" : null,
+        "BOTS_ROLE" : null,
+        "CHANNEL" : null,
+        "GREETING" : [
+            "Welcome {0.name} to {1.name}!"
+        ],
+        "ON" : true,
+        "WHISPER" : false
+    }
+}

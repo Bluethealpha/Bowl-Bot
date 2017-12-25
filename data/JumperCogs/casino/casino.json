@@ -1,0 +1,159 @@
+{
+    "Servers" : {
+        "394205917605789707" : {
+            "Games" : {
+                "Allin" : {
+                    "Access Level" : 0,
+                    "Cooldown" : 43200,
+                    "Multiplier" : 2.2,
+                    "Open" : true
+                },
+                "Blackjack" : {
+                    "Access Level" : 0,
+                    "Cooldown" : 5,
+                    "Max" : 500,
+                    "Min" : 50,
+                    "Multiplier" : 2.2,
+                    "Open" : true
+                },
+                "Coin" : {
+                    "Access Level" : 0,
+                    "Cooldown" : 5,
+                    "Max" : 10,
+                    "Min" : 10,
+                    "Multiplier" : 1.5,
+                    "Open" : true
+                },
+                "Cups" : {
+                    "Access Level" : 0,
+                    "Cooldown" : 5,
+                    "Max" : 500,
+                    "Min" : 50,
+                    "Multiplier" : 2.2,
+                    "Open" : true
+                },
+                "Dice" : {
+                    "Access Level" : 0,
+                    "Cooldown" : 5,
+                    "Max" : 500,
+                    "Min" : 50,
+                    "Multiplier" : 2.2,
+                    "Open" : true
+                },
+                "Hi-Lo" : {
+                    "Access Level" : 0,
+                    "Cooldown" : 5,
+                    "Max" : 20,
+                    "Min" : 20,
+                    "Multiplier" : 1.5,
+                    "Open" : true
+                },
+                "War" : {
+                    "Access Level" : 0,
+                    "Cooldown" : 5,
+                    "Max" : 20,
+                    "Min" : 20,
+                    "Multiplier" : 1.5,
+                    "Open" : true
+                }
+            },
+            "Memberships" : {
+                "Diamond" : {
+                    "Access" : 5,
+                    "Color" : "purple",
+                    "Cooldown Reduction" : 10,
+                    "Payday" : 1000,
+                    "Requirements" : {
+                        "Credits" : 10
+                    }
+                }
+            },
+            "Players" : {
+                "332908202578411521" : {
+                    "Chips" : 100,
+                    "Cooldowns" : {
+                        "Allin" : 0,
+                        "Blackjack" : 0,
+                        "Coin" : 0,
+                        "Cups" : 0,
+                        "Dice" : 0,
+                        "Hi-Lo" : 0,
+                        "Payday" : 0,
+                        "Transfer" : 0,
+                        "War" : 0
+                    },
+                    "Membership" : "Diamond",
+                    "Name" : "Necroam",
+                    "Pending" : 0,
+                    "Played" : {
+                        "Allin" : 0,
+                        "Blackjack" : 0,
+                        "Coin" : 0,
+                        "Cups" : 0,
+                        "Dice" : 0,
+                        "Hi-Lo" : 0,
+                        "War" : 0
+                    },
+                    "Won" : {
+                        "Allin" : 0,
+                        "Blackjack" : 0,
+                        "Coin" : 0,
+                        "Cups" : 0,
+                        "Dice" : 0,
+                        "Hi-Lo" : 0,
+                        "War" : 0
+                    }
+                },
+                "345761816149753856" : {
+                    "Chips" : 160,
+                    "Cooldowns" : {
+                        "Allin" : 0,
+                        "Blackjack" : 0,
+                        "Coin" : 0,
+                        "Cups" : "2017-12-24T20:57:47.695641",
+                        "Dice" : 0,
+                        "Hi-Lo" : 0,
+                        "Payday" : 0,
+                        "Transfer" : 0,
+                        "War" : 0
+                    },
+                    "Membership" : "Diamond",
+                    "Name" : "BluetheARPG",
+                    "Pending" : 0,
+                    "Played" : {
+                        "Allin" : 0,
+                        "Blackjack" : 0,
+                        "Coin" : 0,
+                        "Cups" : 2,
+                        "Dice" : 0,
+                        "Hi-Lo" : 0,
+                        "War" : 0
+                    },
+                    "Won" : {
+                        "Allin" : 0,
+                        "Blackjack" : 0,
+                        "Coin" : 0,
+                        "Cups" : 1,
+                        "Dice" : 0,
+                        "Hi-Lo" : 0,
+                        "War" : 0
+                    }
+                }
+            },
+            "System Config" : {
+                "Casino Name" : "Tokota's Coastal Tyonek",
+                "Casino Open" : true,
+                "Chip Name" : "Toko",
+                "Chip Rate" : 1,
+                "Credit Rate" : 1,
+                "Default Payday" : 100,
+                "Payday Timer" : 1200,
+                "Threshold" : 10000,
+                "Threshold Switch" : false,
+                "Transfer Cooldown" : 30,
+                "Transfer Limit" : 1000,
+                "Version" : 1.722
+            }
+        }
+    }
+}

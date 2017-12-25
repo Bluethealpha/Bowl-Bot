@@ -1,0 +1,13 @@
+﻿When was the Tokotas group first founded?`2014
+What's the name of the Tokotas admin account?`TotemSpirit
+What's the name of the main Tokota god?`Aippaq
+Who was the original(first) owner of Tokotas?`Noebelle
+Who is the CURRENT owner of Tokotas?`MorganLeslee
+What is the name of the account where you receive Random Events with?`TokoEvents
+What's the name of Professor Mitchell's toki?`Percy
+What's the name of Chief Thunderfeather's dire?`Rainwater
+What is the name of the very first starter?`Rhaegar
+What is the name of the first sphinx toki?`Almost
+How many physical traits are there currently?`9
+Which item increases the chances for dire geno's in a breeding?`Close care
+Who was the first 50% dire?`Fenrir
